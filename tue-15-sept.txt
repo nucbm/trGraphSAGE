@@ -1,0 +1,22 @@
+Tue, 15 Sep 2026
+
+Antrenare GraphSAGE pentru o app de monitorizare a stării de sănătate
+
+
+inductive learning: Modelul trebuie să generalizeze la pacienți noi, nevăzuți la antrenare — acesta e punctul forte al GraphSAGE față de GCN transductiv.
+
+
+
+ChatGPT
+
+Da — și aici e util să separăm două probleme: 
+(1) ce semnale medicale ai efectiv disponibile dintr-un wearable și 
+(2) cum transformi acele măsurători într-un graf pe care GraphSAGE să aibă sens. 
+
+Pentru glicemie și tensiune, un singur „smartwatch dataset” complet este mai rar decât pare, 
+așa că voi căuta variante publice realiste și îți spun care e cea mai potrivită 
+pentru un prim experiment.
+
+
+Monitorizarea tensiunii arteriale (BP – blood pressure) cu ajutorul fotopletismografiei (PPG – photoplethysmography) reprezintă o metodă inovatoare, neinvazivă și fără manșetă, care utilizează senzori optici pentru a estima valorile tensiunii. 
+
